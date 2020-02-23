@@ -6,7 +6,7 @@
 
 ### Node é construido em cima da engine V8 (do google chrome)
 
-# O que é o NPM e Yarn?
+# O que é o NPM e Yarn??
 
 ### instala as bibliotecas de terceiros
 
