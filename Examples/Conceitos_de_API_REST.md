@@ -42,15 +42,3 @@
 - 3xx: Redirection
 
 - 4xx: ClIENT Error
-
-{
-"User": {
-"name" : "Moisés",
-"email": "moisesboas@gmail.com",
-"tech" : [ "ReactJS", "NodeJS", "React Native", "Adobe XD", "Photo Shop"],
-"company": {
-"Name" : "Greenone",
-"Setor": "Development Ti"
-}
-}
-}

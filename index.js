@@ -2,19 +2,16 @@ const express = require("express");
 
 const server = express();
 
-//sempre que / for requisitada é retornado um JSON
+// Query Params = ?teste=1
+// Route params = /users/1
+// Request body = { "name": "Moisés", "email": "moisesboas@gmail.com" }
 
-server.get("/", (req, res) => {
+//localhost:3000/?nome=moises
+
+http: server.get("/", (req, res) => {
+  const nome = req.query.nome;
   return res.json({
-    User: {
-      name: "Moisés",
-      email: "moisesboas@gmail.com",
-      tech: ["ReactJS", "NodeJS", "React Native", "Adobe XD", "Photo Shop"],
-      company: {
-        Name: "Greenone",
-        Setor: "Development Ti"
-      }
-    }
+    message: `Hello ${nome}`
   });
 });
 
