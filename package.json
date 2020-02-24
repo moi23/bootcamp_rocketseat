@@ -1,0 +1,22 @@
+{
+  "name": "bootcamp_rocketseat",
+  "version": "1.0.0",
+  "description": "## Irei abordar nesse repo os principais conceitos de:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moi23/bootcamp_rocketseat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moi23/bootcamp_rocketseat/issues"
+  },
+  "homepage": "https://github.com/moi23/bootcamp_rocketseat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

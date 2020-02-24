@@ -34,4 +34,14 @@
 >   }
 > }
 
+# HTTP CODES
+
+
+- 1xx: Informational
+
+- 2xx: Sucesss
+
+- 3xx: Redirection
+
+- 4xx: ClIENT Error
 
