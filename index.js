@@ -6,12 +6,12 @@ const server = express();
 // Route params = /users/1
 // Request body = { "name": "Moisés", "email": "moisesboas@gmail.com" }
 
-//localhost:3000/?nome=moises
+// http://localhost:3000/users/42
 
-http: server.get("/", (req, res) => {
-  const nome = req.query.nome;
+http: server.get("/users/:id", (req, res) => {
+  const id = req.params.id;
   return res.json({
-    message: `Hello ${nome}`
+    message: `Buscando o Usuário ${id}`
   });
 });
 
